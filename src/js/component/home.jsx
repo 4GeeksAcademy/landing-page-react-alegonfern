@@ -1,4 +1,5 @@
 import React from "react";
+import NavBar from "./NavBar";
 
 //include images into your bundle
 
@@ -8,8 +9,11 @@ import React from "react";
 //Create 
 const Home = () => {
 	return (
-		<> 
-		</>);
+		<>
+			<NavBar />
+		</>
+
+	);
 };
 
 export default Home;
