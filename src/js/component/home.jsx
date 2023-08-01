@@ -1,5 +1,6 @@
 import React from "react";
-import MyCard from "./cards.jsx";
+import MyCard from "./cards";
+import NavBar from "./NavBar";
 
 //include images into your bundle
 
@@ -10,9 +11,12 @@ const Home = () => {
 	return (
 		<>
 		
-		
+		<NavBar />
 		<MyCard/> 
-		</>);
+		
+		</>
+
+	);
 };
 
 export default Home;
