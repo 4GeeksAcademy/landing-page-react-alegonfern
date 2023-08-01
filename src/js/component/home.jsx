@@ -1,6 +1,7 @@
 import React from "react";
 import MyCard from "./cards";
 import NavBar from "./NavBar";
+import Jumbo from "./Jumbo";
 
 //include images into your bundle
 
@@ -10,10 +11,15 @@ import NavBar from "./NavBar";
 const Home = () => {
 	return (
 		<>
-		
-		<NavBar />
-		<MyCard/> 
-		
+			<div className="container">
+
+				<NavBar />
+				<Jumbo />
+				<MyCard />
+
+
+
+			</div>
 		</>
 
 	);

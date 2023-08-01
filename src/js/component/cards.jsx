@@ -1,21 +1,37 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+
 
 function MyCard() {
-  return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
+  return (<div className='container'>
+    <div className='row'>
+    <div className="col-md-3">
+      <Card></Card>
+    </div>
+    <div className="col-md-3">
+      <Card></Card>
+    </div>
+    <div className="col-md-3">
+      <Card></Card>
+    </div>
+    <div className="col-md-3">
+      <Card></Card>
+    </div>
+    </div>
+    
+  </div>
   );
+}
+function Card(){
+  return (
+    <div className="card">
+      <img src="..." className="card-img-top" alt="..."/>
+        <div className="card-body">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" className="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+  )
 }
 
 export default MyCard;
