@@ -23,7 +23,8 @@ const Home = (props) => {
 				<Jumbo />
 				<MyCard />
 
-			</div>	<Footer />
+			</div>	
+			<Footer />
 		</>
 
 	);
