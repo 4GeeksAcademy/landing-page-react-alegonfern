@@ -26,7 +26,7 @@ const Home = (props) => {
 				parrafo2="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." 
 				/>
 				<MyCard />
-				/* El "Props" lo implementé en el componente carta, que consta de dos componentes a su vez. */
+				{/* El "Props" lo implementé en el componente carta, que consta de dos componentes a su vez. */}
 			</div>
 			<Footer textFooter="Copyright © Your Website 2023" />
 		</>
