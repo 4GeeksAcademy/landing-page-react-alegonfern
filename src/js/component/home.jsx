@@ -16,15 +16,19 @@ const Home = (props) => {
 
 
 	return (
-		<>  <NavBar />
+		<>  <NavBar navTitulo="Start Bootstrap"/>
 			<div className="container">
 
 
-				<Jumbo />
+				<Jumbo 
+				titulo="A Warm Welcome" 
+				parrafo1="Lorem Ipsum is simply dummy text of the printing and typesetting industry." 
+				parrafo2="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." 
+				/>
 				<MyCard />
 
-			</div>	
-			<Footer />
+			</div>
+			<Footer textFooter="Copyright © Your Website 2023" />
 		</>
 
 	);
